@@ -25,8 +25,8 @@ public class JugadorCPUAlfaBeta extends JugadorCPU {
         
         int posicion = genRandom(x, grid);
         
-        System.out.println(grid.getAlto());
-        System.out.println(grid.getAncho());
+        //System.out.println(grid.getAlto());
+        //System.out.println(grid.getAncho());
         
         
         for (int i = 0; i < 8; i++) {
@@ -39,7 +39,7 @@ public class JugadorCPUAlfaBeta extends JugadorCPU {
                         if (val_aux < val) {
                             val = val_aux;
                             posicion = i;
-                            System.out.println(i);
+                            //System.out.println(i);
                         }
 
                         nTablero[j][i] = 0;
